@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IslaWeb | Catálogos digitales en Cuba</title>
+
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Arial,Helvetica,sans-serif;
+  background:#f4f4f4;
+  color:#333;
+  line-height:1.6;
+}
+.hero{
+  background:url("https://images.unsplash.com/photo-1498050108023-c5249f4df085") center/cover no-repeat;
+  padding:90px 20px;
+  position:relative;
+  color:#fff;
+  text-align:center;
+}
+.hero::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:rgba(0,0,0,0.75);
+}
+.hero-content{
+  position:relative;
+  max-width:900px;
+  margin:auto;
+}
+.logo{
+  margin:0 auto 20px;
+  width:90px;
+  height:90px;
+  background:#111;
+  border-radius:18px;
+}
+section{
+  max-width:1000px;
+  margin:auto;
+  padding:40px 20px;
+}
+h2{
+  border-left:5px solid #111;
+  padding-left:10px;
+  margin-bottom:20px;
+}
+.card{
+  background:#fff;
+  padding:25px;
+  border-radius:8px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.08);
+}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:20px;
+}
+.plan{
+  background:#fff;
+  padding:25px;
+  border-radius:8px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.08);
+  text-align:center;
+}
+.plan ul{
+  list-style:none;
+  padding:0;
+  text-align:left;
+}
+.plan ul li{margin-bottom:8px}
+.price{
+  font-size:1.8em;
+  font-weight:bold;
+  margin:15px 0;
+}
+.pro{
+  border:2px solid #111;
+}
+footer{
+  background:#111;
+  color:#aaa;
+  text-align:center;
+  padding:20px;
+}
+.whatsapp{
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  background:#25d366;
+  color:#fff;
+  padding:14px 22px;
+  border-radius:30px;
+  text-decoration:none;
+  font-weight:bold;
+}
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+  <div class="hero-content">
+
+    <div class="logo"></div>
+
+    <h1>IslaWeb</h1>
+    <p>Catálogos digitales profesionales para negocios en Cuba</p>
+  </div>
+</div>
+
+<section>
+  <h2>¿Qué es IslaWeb?</h2>
+  <div class="card">
+    <p>
+      IslaWeb es un servicio de creación de páginas web de presentación diseñado
+      específicamente para negocios cubanos. Ayudamos a emprendedores, trabajadores
+      por cuenta propia y pequeños negocios a mostrar sus servicios de forma clara,
+      moderna y accesible desde cualquier móvil.
+    </p>
+  </div>
+</section>
+
+<section>
+  <h2>¿Cómo trabajamos?</h2>
+  <div class="grid">
+    <div class="card">📲 Nos escribes por WhatsApp y nos explicas tu negocio</div>
+    <div class="card">📝 Nos envías la información y fotos que quieras mostrar</div>
+    <div class="card">💻 Diseñamos tu catálogo web</div>
+    <div class="card">✅ Te enseñamos el resultado final</div>
+    <div class="card">💵 Realizas el pago al finalizar</div>
+  </div>
+</section>
+
+<section>
+  <h2>Planes</h2>
+  <div class="grid">
+    <div class="plan">
+      <h3>Plan Básico</h3>
+      <div class="price">5 000 CUP</div>
+      <ul>
+        <li>✔ Página web de presentación</li>
+        <li>✔ Servicios o productos organizados</li>
+        <li>✔ Información clara del negocio</li>
+        <li>✔ Enlace web para compartir</li>
+        <li>✔ Diseño sencillo y profesional</li>
+      </ul>
+    </div>
+
+    <div class="plan pro">
+      <h3>Plan PRO</h3>
+      <div class="price">8 000 CUP</div>
+      <ul>
+        <li>✔ Todo lo incluido en el Plan Básico</li>
+        <li>✔ Diseño visual más atractivo</li>
+        <li>✔ Botón flotante de WhatsApp</li>
+        <li>✔ Ubicación del negocio con Google Maps</li>
+        <li>✔ Código QR para compartir el catálogo</li>
+        <li>✔ Optimización completa para móviles</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>¿Qué no incluye?</h2>
+  <div class="card">
+    <ul>
+      <li>❌ Tienda online o ventas por internet</li>
+      <li>❌ Pagos en línea o transferencias digitales</li>
+      <li>❌ Dominio propio (.cu u otros)</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Ventajas de tener una web para tu negocio en Cuba</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>📱 Más visibilidad</h3>
+      <p>
+        Tu negocio estará disponible en internet las 24 horas del día, permitiendo
+        que cualquier persona pueda ver tus servicios desde su teléfono móvil
+        sin necesidad de visitarte primero.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>💬 Contacto directo</h3>
+      <p>
+        Los clientes pueden escribirte directamente por WhatsApp con un solo toque,
+        facilitando la comunicación y evitando llamadas innecesarias o confusiones.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>🏪 Imagen profesional</h3>
+      <p>
+        Tener una página web transmite seriedad y confianza. Tu negocio se ve más
+        organizado y profesional frente a otros que solo usan redes sociales.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>🚀 Presencia moderna</h3>
+      <p>
+        Una web te ayuda a adaptarte a la forma actual en que las personas buscan
+        servicios, mostrando que tu negocio está actualizado y preparado para crecer.
+      </p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2026 · IslaWeb · Catálogos digitales en Cuba
+</footer>
+
+<a class="whatsapp" href="https://wa.me/5351229714" target="_blank">
+  WhatsApp
+</a>
+
+</body>
+</html>
